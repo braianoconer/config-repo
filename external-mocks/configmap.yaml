@@ -1,0 +1,17 @@
+
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: external-mocks
+data:
+
+  application.properties: |
+
+    service.env=develop env 1
+  
+  
+  application.yml: |
+
+    service:
+      chart-version: 0.1.0
